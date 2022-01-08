@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { calculateTimeLeft } from "../util/calculateTimeLeft";
+import { calculateTimeLeft } from "../../utils/calculateTimeLeft";
 import {
   DateContainer,
   Heading,
