@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
 import { calculateTimeLeft } from "../../utils/calculateTimeLeft";
 import {
-  DateContainer,
   Heading,
   Number,
-  Separador,
   TimeBox,
   Timedown,
   TimerWrapper,
