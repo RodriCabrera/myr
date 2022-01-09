@@ -9,14 +9,12 @@ export const Timedown = styled.div`
 export const Heading = styled.h2`
   text-align: center;
 `;
-export const Separador = styled.div`
-  border-right: 1px solid black;
-  height: 15px;
-`;
+
 export const TimerWrapper = styled.div`
   display: flex;
   justify-content: center;
-  gap: 10px;
+  align-items: center;
+  gap: 1rem;
 `;
 export const TimeBox = styled.div`
   display: flex;

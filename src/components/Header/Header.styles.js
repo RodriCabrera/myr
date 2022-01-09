@@ -2,7 +2,6 @@ import styled from "@emotion/styled";
 
 export const Container = styled.section`
   height: 100vh;
-  background-color: lightgoldenrodyellow;
   display: flex;
   flex-direction: column;
   width: 100%;

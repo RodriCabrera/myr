@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
-import { calculateTimeLeft } from "../util/calculateTimeLeft";
+import { calculateTimeLeft } from "../../utils/calculateTimeLeft";
 import {
-  DateContainer,
   Heading,
   Number,
-  Separador,
   TimeBox,
   Timedown,
   TimerWrapper,
@@ -25,7 +23,7 @@ const Countdown = () => {
     <>
       {timeLeft.days > 0 ? (
         <Timedown>
-          <Heading>Faltan</Heading>
+          <Heading>Nos casamos!</Heading>
           <TimerWrapper>
             <TimeBox>
               <Number>{timeLeft.days}</Number>
