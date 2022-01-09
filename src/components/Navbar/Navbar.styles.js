@@ -12,7 +12,6 @@ export const Container = styled.div`
   z-index: 2;
 `;
 export const Logo = styled.h2`
-  font-family: "Reenie Beanie";
   font-size: 4rem;
   padding-left: 1rem;
 `;
@@ -41,7 +40,6 @@ export const Menu = styled.div`
   position: fixed;
   right: ${(props) => (props.openMenu ? "0" : "-300px")};
   top: 64px;
-  height: 100%;
   transition: 0.5s all ease;
   z-index: 1;
   display: flex;

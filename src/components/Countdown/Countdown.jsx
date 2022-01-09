@@ -23,7 +23,7 @@ const Countdown = () => {
     <>
       {timeLeft.days > 0 ? (
         <Timedown>
-          <Heading>Faltan</Heading>
+          <Heading>Nos casamos!</Heading>
           <TimerWrapper>
             <TimeBox>
               <Number>{timeLeft.days}</Number>

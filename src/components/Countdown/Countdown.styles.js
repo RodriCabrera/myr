@@ -13,7 +13,8 @@ export const Heading = styled.h2`
 export const TimerWrapper = styled.div`
   display: flex;
   justify-content: center;
-  gap: 10px;
+  align-items: center;
+  gap: 1rem;
 `;
 export const TimeBox = styled.div`
   display: flex;

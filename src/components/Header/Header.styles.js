@@ -11,14 +11,13 @@ export const DateContainer = styled.div`
   align-items: center;
   gap: 1rem;
   justify-content: center;
-  margin-bottom: 0.3rem;
   color: white;
-  font-family: "Reenie Beanie";
   font-size: 3rem;
   background-color: #ffffff40;
   backdrop-filter: blur(1px);
   border-radius: 3px;
-  width: 100%;
+  width: 500px;
+  height: 300px;
   max-width: 700px;
 `;
 export const ImageWrapper = styled.div`
