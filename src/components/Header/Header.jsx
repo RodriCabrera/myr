@@ -10,7 +10,8 @@ const Header = () => {
         }
       >
         <DateContainer>
-          <h3>8 de abril de 2022</h3>
+          <h2>Eli y Lucho</h2>
+          <h3>8 . 4 . 22</h3>
         </DateContainer>
       </ImageWrapper>
 

@@ -7,13 +7,28 @@ export const Container = styled.section`
 `;
 export const DateContainer = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 1rem;
   justify-content: center;
+  margin-bottom: 0.3rem;
+  color: white;
+  font-family: "Reenie Beanie";
+  font-size: 3rem;
+  background-color: #ffffff40;
+  backdrop-filter: blur(1px);
+  border-radius: 3px;
+  width: 100%;
+  max-width: 700px;
 `;
 export const ImageWrapper = styled.div`
   background-image: ${(props) => `url(${props.imgUrl})`};
   background-size: cover;
   background-position: 80% 25%;
   height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
 `;

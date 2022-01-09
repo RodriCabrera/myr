@@ -4,12 +4,11 @@ import { FiMenu, FiX } from "react-icons/fi";
 export const Container = styled.div`
   height: 64px;
   position: fixed;
-  background-color: #ffffff80;
-  backdrop-filter: blur(3px);
+
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   z-index: 2;
 `;
 export const Logo = styled.h2`
@@ -19,8 +18,21 @@ export const Logo = styled.h2`
 `;
 export const MenuButton = styled(FiMenu)`
   font-size: 2rem;
-  padding-right: 1rem;
+  margin-right: 1rem;
+  padding: 4px;
   cursor: pointer;
+  background-color: #ffffff30;
+  backdrop-filter: blur(3px);
+  border-radius: 4px;
+`;
+export const CloseButton = styled(FiX)`
+  font-size: 2rem;
+  margin-right: 1rem;
+  padding: 4px;
+  cursor: pointer;
+  background-color: #ffffff30;
+  backdrop-filter: blur(3px);
+  border-radius: 4px;
 `;
 export const Menu = styled.div`
   width: 200px;
@@ -39,10 +51,5 @@ export const Menu = styled.div`
   padding: 1rem;
 `;
 export const Link = styled.p`
-  cursor: pointer;
-`;
-export const CloseButton = styled(FiX)`
-  font-size: 2rem;
-  padding-right: 1rem;
   cursor: pointer;
 `;

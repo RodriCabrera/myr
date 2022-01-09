@@ -3,7 +3,6 @@ import {
   CloseButton,
   Container,
   Link,
-  Logo,
   Menu,
   MenuButton,
 } from "./Navbar.styles";
@@ -14,7 +13,6 @@ const Navbar = () => {
   return (
     <>
       <Container>
-        <Logo>Lucho y Eli</Logo>
         {openMenu ? (
           <CloseButton onClick={switchMenu} />
         ) : (
