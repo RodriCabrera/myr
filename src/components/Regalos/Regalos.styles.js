@@ -6,7 +6,9 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 1rem;
 `;
 export const Title = styled.h2`
   font-size: 2.6rem;

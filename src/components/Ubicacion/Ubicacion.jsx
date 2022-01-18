@@ -5,7 +5,8 @@ const Ubicacion = () => {
   return (
     <Fade left>
       <Container>
-        <Text size="2rem">"El Abierto Eventos"</Text>
+        <Text size="2.5rem">¿Dónde?</Text>
+        <Text size="2rem">El Abierto Eventos</Text>
         <Text size="1.5rem">Av. Triunvirato 6385</Text>
         <Fade>
           <iframe
