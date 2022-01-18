@@ -7,3 +7,8 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
 `;
+
+export const Text = styled.h3`
+  font-size: ${(props) => props.size};
+  text-align: center;
+`;

@@ -1,12 +1,12 @@
 import { Fade } from "react-reveal";
-import { Container } from "./Ubicacion.styles";
+import { Container, Text } from "./Ubicacion.styles";
 
 const Ubicacion = () => {
   return (
     <Container>
       <Fade>
-        <h3 style={{ fontSize: "3rem" }}>"El Abierto Eventos"</h3>
-        <h4 style={{ fontSize: "2rem" }}>Av. Triunvirato 6385</h4>
+        <Text size="2rem">"El Abierto Eventos"</Text>
+        <Text size="1.5rem">Av. Triunvirato 6385</Text>
       </Fade>
       <Fade>
         <iframe
