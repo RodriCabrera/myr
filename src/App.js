@@ -1,4 +1,3 @@
-import Parallax from "react-scroll-parallax/cjs/components/Parallax";
 import BgContainer from "./components/BgContainer";
 import Countdown from "./components/Countdown";
 import Header from "./components/Header";

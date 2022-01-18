@@ -1,5 +1,4 @@
 import Parallax from "react-scroll-parallax/cjs/components/Parallax";
-import Countdown from "../Countdown";
 import { Container, DateContainer, Wrapper } from "./Header.styles";
 
 const Header = () => {
