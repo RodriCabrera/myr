@@ -7,8 +7,7 @@ export const Container = styled.section`
   width: 100%;
   align-items: center;
 `;
-export const ImageWrapper = styled.div`
-  background-image: ${(props) => `url(${props.imgUrl})`};
+export const Wrapper = styled.div`
   background-size: cover;
   background-position: 80% 25%;
   height: 80%;
