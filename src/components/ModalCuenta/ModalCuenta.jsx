@@ -7,12 +7,12 @@ const ModalCuenta = ({ handler }) => {
       <Container onClick={handler}></Container>
       <DataWrapper>
         <CloseButton onClick={handler} />
-        <p>Titular: Nombre del titular</p>
-        <p>CBU: 12412415125120380019</p>
-        <p>CUIT: 20-333333333-9</p>
-        <p>Número de Cuenta:111122223333</p>
-        <p>Alias: pato.goma.flotante</p>
-        <p>Banco: Santander</p>
+        <p>Titular: Eliana Maria, Lopez, Martinez</p>
+        <p>CBU: 0140100003402350051326</p>
+        <p>CUIT: 27-94174162-8</p>
+        <p>Número de Cuenta: 4023-500513/2</p>
+        <p>Alias: Elmaloma15</p>
+        <p>Banco: Banco Provincia</p>
       </DataWrapper>
     </>
   );
