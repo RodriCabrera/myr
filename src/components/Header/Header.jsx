@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <Container>
       <Wrapper id="imageWrapper">
-        <Parallax y={[90, -60]} tagOuter="figure">
+        <Parallax y={[0, 0]} tagOuter="figure">
           <DateContainer>
             <h2>Eli y Lucho</h2>
-            <h3>8 . 4 . 22</h3>
+            <h4>8 . 4 . 22</h4>
           </DateContainer>
         </Parallax>
       </Wrapper>

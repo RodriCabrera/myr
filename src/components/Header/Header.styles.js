@@ -8,19 +8,17 @@ export const Container = styled.section`
   align-items: center;
 `;
 export const Wrapper = styled.div`
-  background-size: cover;
-  background-position: 80% 25%;
-  height: 80%;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 `;
 export const DateContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   gap: 1rem;
   justify-content: center;
   color: white;
@@ -29,4 +27,5 @@ export const DateContainer = styled.div`
   backdrop-filter: blur(1px);
   border-radius: 3px;
   padding: 2rem;
+  height: 300px;
 `;
