@@ -21,7 +21,7 @@ export const DataWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: aliceblue;
+  background-color: #f4ffb2;
   padding: 2rem;
   top: 30%;
   width: 80%;
@@ -30,4 +30,5 @@ export const DataWrapper = styled.div`
   z-index: 6;
   max-width: 500px;
   gap: 1rem;
+  border-radius: 15px;
 `;
