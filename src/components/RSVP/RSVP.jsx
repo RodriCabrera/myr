@@ -4,7 +4,9 @@ import { Container, Header, Text, TextWrapper } from "./RSVP.styles";
 
 const RSVP = () => {
   const handleClick = () => {
-    window.open("https://forms.gle/RNrsu13DC4V16AP87");
+    window.open(
+      "https://docs.google.com/forms/d/e/1FAIpQLSfM0UDgqm5bIKiOlWRrorppaCFfXZpo9M-SQl_ZpmejXCC13A/viewform"
+    );
   };
   return (
     <Fade left>
