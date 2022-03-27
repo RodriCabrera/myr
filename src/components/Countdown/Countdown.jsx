@@ -26,6 +26,7 @@ const Countdown = () => {
         <Fade left>
           <Timedown>
             <Heading>Nos casamos!</Heading>
+            <Heading>8 de abril de 2022 a las 20.00 hs.</Heading>
             <TimerWrapper>
               <TimeBox>
                 <Number>{timeLeft.days}</Number>
