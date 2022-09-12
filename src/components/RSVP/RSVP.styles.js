@@ -6,9 +6,10 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #ffd6a5e6;
+  background-color: #f4e9e6;
   border: none;
-  height: 50vh;
+  gap: 2rem;
+  /* height: 50vh; */
 `;
 export const Header = styled.h1``;
 
@@ -22,4 +23,5 @@ export const TextWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-bottom: 1.5rem;
 `;

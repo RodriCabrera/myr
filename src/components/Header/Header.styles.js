@@ -1,11 +1,12 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.section`
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
+  padding-top: 2rem;
 `;
 export const Wrapper = styled.div`
   height: 100%;
@@ -18,14 +19,12 @@ export const Wrapper = styled.div`
 export const DateContainer = styled.div`
   display: flex;
   flex-direction: column;
-  /* align-items: flex-start; */
+  align-items: center;
   gap: 1rem;
   justify-content: center;
-  color: white;
+  /* color: white; */
+  /* color: #ece2e2; */
   font-size: 3rem;
-  background-color: #ffffff40;
-  backdrop-filter: blur(1px);
-  border-radius: 3px;
   padding: 2rem;
-  height: 300px;
+  /* height: 300px; */
 `;

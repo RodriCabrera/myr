@@ -1,6 +1,6 @@
-import BgContainer from "./components/BgContainer";
-import Countdown from "./components/Countdown";
+import Dresscode from "./components/Dresscode/Dresscode";
 import Header from "./components/Header";
+import Navbar from "./components/Navbar/Navbar";
 import Regalos from "./components/Regalos";
 import RSVP from "./components/RSVP";
 import Ubicacion from "./components/Ubicacion";
@@ -8,11 +8,12 @@ import Ubicacion from "./components/Ubicacion";
 function App() {
   return (
     <>
-      <BgContainer />
+      <Navbar />
+      {/* <BgContainer /> */}
       <Header />
-      <Countdown />
-      <RSVP />
       <Ubicacion />
+      <RSVP />
+      <Dresscode />
       <Regalos />
     </>
   );

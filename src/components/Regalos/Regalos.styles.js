@@ -1,14 +1,14 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  height: 100vh;
-  background-color: #bdb2fff2;
+  background-color: #f5f8f8;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 2rem;
   padding: 0 1rem;
+  padding: 3rem;
 `;
 export const Title = styled.h2`
   font-size: 2.6rem;

@@ -23,30 +23,28 @@ const Countdown = () => {
   return (
     <>
       {timeLeft.days > 0 ? (
-        <Fade left>
-          <Timedown>
-            <Heading>Ya llega!</Heading>
-            <Heading>8 de abril de 2022 a las 21.00 hs.</Heading>
-            <TimerWrapper>
-              <TimeBox>
-                <Number>{timeLeft.days}</Number>
-                <Unit>Días</Unit>
-              </TimeBox>
-              <TimeBox>
-                <Number>{timeLeft.hours}</Number>
-                <Unit>Horas</Unit>
-              </TimeBox>
-              <TimeBox>
-                <Number>{timeLeft.minutes}</Number>
-                <Unit>Minutos</Unit>
-              </TimeBox>
-              <TimeBox>
-                <Number>{timeLeft.seconds}</Number>
-                <Unit>Segundos</Unit>
-              </TimeBox>
-            </TimerWrapper>
-          </Timedown>
-        </Fade>
+        <Timedown>
+          {/* <Heading>Ya llega!</Heading> */}
+          {/* <Heading>12 . 11 . 2022 : 20.30hs.</Heading> */}
+          <TimerWrapper>
+            <TimeBox>
+              <Number>{timeLeft.days}</Number>
+              <Unit>Días</Unit>
+            </TimeBox>
+            <TimeBox>
+              <Number>{timeLeft.hours}</Number>
+              <Unit>Horas</Unit>
+            </TimeBox>
+            <TimeBox>
+              <Number>{timeLeft.minutes}</Number>
+              <Unit>Minutos</Unit>
+            </TimeBox>
+            <TimeBox>
+              <Number>{timeLeft.seconds}</Number>
+              <Unit>Segundos</Unit>
+            </TimeBox>
+          </TimerWrapper>
+        </Timedown>
       ) : (
         ""
       )}

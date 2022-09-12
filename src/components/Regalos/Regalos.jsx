@@ -1,25 +1,33 @@
 import { useState } from "react";
 import Button from "../Button";
+import { MainText } from "../Header/Header";
 import ModalCuenta from "../ModalCuenta";
-import { Container, Text, Title } from "./Regalos.styles";
+import ModalCash from "../ModalCuenta/ModalCash";
+import { Container, Text } from "./Regalos.styles";
 
 const Regalos = () => {
-  const [showModal, setShowModal] = useState(false);
-  const handleClick = () => {
-    setShowModal((prevState) => !prevState);
-    console.log("CLCKEADO");
+  const [showCuentaModal, setShowCuentaModal] = useState(false);
+  const [showCashModal, setShowCashModal] = useState(false);
+
+  const handleCuentaClick = () => {
+    setShowCuentaModal((prevState) => !prevState);
   };
+  const handleCashClick = () => {
+    setShowCashModal((prevState) => !prevState);
+  };
+
   return (
     <Container>
-      <Title>¿Querés hacernos un regalo?</Title>
-      <Text>
-        ¡Con tu sola presencia nos basta! Pero si tenés ganas de ayudarnos con
-        nuestra luna de miel, podes hacer un depósito en la siguiente cuenta:
-      </Text>
-      <Button bg="#f4ffb2" handler={handleClick}>
+      <MainText>¿Querés hacernos un regalo?</MainText>
+      <Text>Si querés hacernos un regalo:</Text>
+      <Button bg="#efdeda" handler={handleCuentaClick}>
         Datos cuenta bancaria
       </Button>
-      {showModal && <ModalCuenta handler={handleClick} />}
+      <Button bg="#efdeda" handler={handleCashClick}>
+        Efectivo
+      </Button>
+      {showCuentaModal && <ModalCuenta handler={handleCuentaClick} />}
+      {showCashModal && <ModalCash handler={handleCashClick} />}
     </Container>
   );
 };
