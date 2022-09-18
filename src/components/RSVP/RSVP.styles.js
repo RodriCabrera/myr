@@ -9,7 +9,6 @@ export const Container = styled.div`
   background-color: #f4e9e6;
   border: none;
   gap: 2rem;
-  /* height: 50vh; */
 `;
 export const Header = styled.h1``;
 

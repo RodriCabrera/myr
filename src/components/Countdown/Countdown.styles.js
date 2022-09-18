@@ -5,7 +5,7 @@ export const Timedown = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   padding: 2rem 0;
   border: none;
 `;

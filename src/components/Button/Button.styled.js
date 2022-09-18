@@ -2,8 +2,9 @@ import styled from "@emotion/styled";
 
 export const StyledButton = styled.button`
   background-color: ${(props) => props.bg};
-  padding: 1rem;
-  font-size: 1.2rem;
+  padding: ${({ padding }) => padding || "1rem"};
+  margin: ${({ margin }) => margin};
+  font-size: ${({ size }) => size || "1.2rem"};
   border-radius: 15px;
   border: 0;
   transition: 0.2s all ease;

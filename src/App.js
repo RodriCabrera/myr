@@ -1,4 +1,5 @@
 import Dresscode from "./components/Dresscode/Dresscode";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Regalos from "./components/Regalos";
@@ -15,6 +16,7 @@ function App() {
       <RSVP />
       <Dresscode />
       <Regalos />
+      <Footer />
     </>
   );
 }

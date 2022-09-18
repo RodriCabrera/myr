@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Fade } from "react-reveal";
 import { calculateTimeLeft } from "../../utils/calculateTimeLeft";
+import { Text } from "../common.styles";
 import {
   Heading,
   Number,
@@ -28,21 +29,21 @@ const Countdown = () => {
           {/* <Heading>12 . 11 . 2022 : 20.30hs.</Heading> */}
           <TimerWrapper>
             <TimeBox>
-              <Number>{timeLeft.days}</Number>
+              <Text size="3rem">{timeLeft.days}</Text>
               <Unit>Días</Unit>
             </TimeBox>
             <TimeBox>
-              <Number>{timeLeft.hours}</Number>
+              <Text size="3rem">{timeLeft.hours}</Text>
               <Unit>Horas</Unit>
             </TimeBox>
             <TimeBox>
-              <Number>{timeLeft.minutes}</Number>
+              <Text size="3rem">{timeLeft.minutes}</Text>
               <Unit>Minutos</Unit>
             </TimeBox>
-            <TimeBox>
+            {/* <TimeBox>
               <Number>{timeLeft.seconds}</Number>
               <Unit>Segundos</Unit>
-            </TimeBox>
+            </TimeBox> */}
           </TimerWrapper>
         </Timedown>
       ) : (

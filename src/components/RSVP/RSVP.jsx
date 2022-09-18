@@ -1,17 +1,16 @@
 import Button from "../Button";
+import { Container, Text } from "../common.styles";
 import { MainText } from "../Header/Header";
-import { Text } from "../Ubicacion/Ubicacion.styles";
-import { Container, TextWrapper } from "./RSVP.styles";
+import { TextWrapper } from "./RSVP.styles";
 
 const RSVP = () => {
   const handleClick = () => {
-    window
-      .open
-      // "https://docs.google.com/forms/d/e/1FAIpQLSfM0UDgqm5bIKiOlWRrorppaCFfXZpo9M-SQl_ZpmejXCC13A/viewform"
-      ();
+    window.open(
+      "https://docs.google.com/forms/d/e/1FAIpQLSc8pJMcgGbEojXL3sk78tN5XNv7_W8IBK25XDx1o_oPi1Sx_A/viewform?usp=sf_link  "
+    );
   };
   return (
-    <Container>
+    <Container bg="#f4e9e6" minHeight="40vh" justify="center">
       <MainText>Confirmar asistencia</MainText>
       <TextWrapper>
         <Text size="2rem">

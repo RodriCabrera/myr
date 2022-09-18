@@ -1,26 +1,31 @@
-import styled from "@emotion/styled";
 import React from "react";
-import { MainText } from "../Header/Header";
+import { Container, Text } from "../common.styles";
 import { TextWrapper } from "../RSVP/RSVP.styles";
-import { Text } from "../Ubicacion/Ubicacion.styles";
-const Container = styled.div`
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  /* background-color: red; */
-  border: none;
-  gap: 2rem;
-  /* height: 50vh; */
-`;
+// const Container = styled.div`
+//   padding: 2rem;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: space-evenly;
+//   border: none;
+//   gap: 2rem;
+// `;
 const Dresscode = () => {
   return (
     <div>
-      <Container>
-        <MainText>Dress code</MainText>
+      <Container minHeight="40vh" justify="center" bg="none">
+        <Text size="2rem">¡Importante!</Text>
         <TextWrapper>
-          <Text size="2rem">Insertar text sobre el dress code del evento</Text>
+          {/* <Text size="2rem">
+            En caso de pronostico de lluvia vamos a avisar con cinco días de
+            anticipación para mover el festejo a otro día.
+          </Text> */}
+          <Text size="1.5rem">
+            Ante pronóstico de lluvia tendremos que posponer el evento 😓
+          </Text>
+          <Text size="1.3rem">
+            ¡Pero que no cunda el pánico! Avisaremos al menos cinco días antes
+          </Text>
         </TextWrapper>
       </Container>
     </div>
