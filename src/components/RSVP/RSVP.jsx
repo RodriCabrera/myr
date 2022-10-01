@@ -14,7 +14,7 @@ const RSVP = () => {
       <MainText>Confirmar asistencia</MainText>
       <TextWrapper>
         <Text size="2rem">
-          Por favor, confirmanos tu asistencia antes del 12 de octubre.
+          Por favor, confirmanos tu asistencia antes del 8 de octubre.
         </Text>
       </TextWrapper>
       <Button handler={handleClick} bg="#a2bdbe" color="white">

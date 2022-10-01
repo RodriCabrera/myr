@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
-import { Fade } from "react-reveal";
 import { calculateTimeLeft } from "../../utils/calculateTimeLeft";
 import { Text } from "../common.styles";
 import {
   Heading,
-  Number,
   TimeBox,
   Timedown,
   TimerWrapper,
