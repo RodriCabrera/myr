@@ -10,7 +10,7 @@ const RSVP = () => {
     );
   };
   return (
-    <Container bg="#f4e9e6" minHeight="40vh" justify="center">
+    <Container bg="#f4e9e6" minHeight="55vh" justify="center">
       <MainText>Confirmar asistencia</MainText>
       <TextWrapper>
         <Text size="2rem">
