@@ -23,7 +23,7 @@ export const DataWrapper = styled.div`
   align-items: center;
   background-color: white;
   padding: 2rem;
-  top: 15%;
+  top: 1%;
   width: 80%;
   padding: 1rem;
   margin: 1rem;
