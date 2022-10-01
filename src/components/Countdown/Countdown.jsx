@@ -25,7 +25,7 @@ const Countdown = () => {
     <>
       {timeLeft.days > 0 ? (
         <Timedown>
-          {/* <Heading>Ya llega!</Heading> */}
+          <Heading>¡Ya llega!</Heading>
           {/* <Heading>12 . 11 . 2022 : 20.30hs.</Heading> */}
           <TimerWrapper>
             <TimeBox>
@@ -40,10 +40,10 @@ const Countdown = () => {
               <Text size="3rem">{timeLeft.minutes}</Text>
               <Unit>Minutos</Unit>
             </TimeBox>
-            {/* <TimeBox>
-              <Number>{timeLeft.seconds}</Number>
+            <TimeBox>
+              <Text size="3rem">{timeLeft.seconds}</Text>
               <Unit>Segundos</Unit>
-            </TimeBox> */}
+            </TimeBox>
           </TimerWrapper>
         </Timedown>
       ) : (
