@@ -2,6 +2,13 @@ import styled from "@emotion/styled";
 import { Text } from "../common.styles";
 import { Container, DateContainer, Wrapper } from "./Header.styles";
 import img from "../../assets/myr-euge.jpeg";
+import img2 from "../../assets/IMG_0026.jpeg";
+import img3 from "../../assets/mendoza.jpeg";
+import img4 from "../../assets/rio.jpeg";
+import img5 from "../../assets/cordoba.jpeg";
+import img6 from "../../assets/frenc.jpeg";
+import img7 from "../../assets/bodega.jpeg";
+import { keyframes } from "@emotion/react";
 
 export const MainText = styled.p`
   font-size: 48px;
@@ -11,25 +18,45 @@ export const MainText = styled.p`
   text-align: center;
 `;
 
-const RoundImage = styled.div`
-  min-height: 250px;
-  min-width: 250px;
-  background: rgba(0, 0, 0, 0) url(${img});
+const scroll = keyframes`
+  0% { transform: translateX(0)}
+  100% { transform: translateX(calc(-45vh*7)) }
+  `;
 
+const RoundImage = styled.div`
+  min-height: 100%;
+  animation-name: ${scroll};
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  min-width: 100%;
+  background: ${({ src }) => `rgba(0, 0, 0, 0) url(${src})`};
   background-position: 50% 40%;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  border-radius: 100%;
+`;
+
+const CarrouselContainer = styled.div`
+  overflow: hidden;
+  display: flex;
   height: 45vh;
   width: 45vh;
-  border-radius: 100%;
-  margin: 0;
 `;
 
 const Header = () => {
   return (
     <Container style={{ backgroundColor: "white" }}>
       <Wrapper id="header-wrapper">
-        <RoundImage />
+        <CarrouselContainer>
+          <RoundImage src={img} />
+          <RoundImage src={img2} />
+          <RoundImage src={img3} />
+          <RoundImage src={img4} />
+          <RoundImage src={img5} />
+          <RoundImage src={img6} />
+          <RoundImage src={img7} />
+          <RoundImage src={img} />
+        </CarrouselContainer>
         <DateContainer>
           <MainText size="88px" weight="700">
             ¡Nos casamos!
