@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 import React from "react";
-import { Text } from "../common.styles";
 
 const NavbarContainer = styled.nav`
   position: fixed;
@@ -10,6 +9,7 @@ const NavbarContainer = styled.nav`
   padding: 0.5rem 0;
   margin-bottom: 2rem;
   background-color: ${({ bg }) => bg};
+  z-index: 10;
 `;
 const Logo = styled.p`
   font-weight: 600;
