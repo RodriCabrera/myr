@@ -26,7 +26,7 @@ const scroll = keyframes`
 const RoundImage = styled.div`
   min-height: 100%;
   animation-name: ${scroll};
-  animation-duration: 52s;
+  animation-duration: 35s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 
