@@ -21,11 +21,12 @@ const Dresscode = () => {
             anticipación para mover el festejo a otro día.
           </Text> */}
           <Text size="1.5rem">
-            Ante pronóstico de lluvia tendremos que posponer el evento 😓
+            Lamentablemente tuvimos que reprogramar el evento para el
+            mediodia... 😓
           </Text>
-          <Text size="1.3rem">
+          {/* <Text size="1.3rem">
             ¡Pero que no cunda el pánico! Avisaremos al menos cinco días antes
-          </Text>
+          </Text> */}
         </TextWrapper>
       </Container>
     </div>

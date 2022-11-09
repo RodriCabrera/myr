@@ -38,7 +38,7 @@ const Ubicacion = () => {
           </StyledLink>
         </Column>
         <Text size="2rem" weight="400" margin="20px 0 0 0">
-          20:30 hs. puntual
+          11:30 hs. puntual
         </Text>
         <Text size="1.5rem" weight="300" margin="40px 0 0 0">
           Dress code formal 👰🏻‍♀️🤵🏼‍♂️
