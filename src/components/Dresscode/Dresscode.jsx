@@ -13,7 +13,7 @@ import { TextWrapper } from "../RSVP/RSVP.styles";
 const Dresscode = () => {
   return (
     <div>
-      <Container minHeight="40vh" justify="center" bg="none">
+      <Container minHeight="40vh" justify="center" bg="#f4e9e6">
         <Text size="2rem">¡Importante!</Text>
         <TextWrapper>
           {/* <Text size="2rem">

@@ -13,7 +13,7 @@ function App() {
       {/* <BgContainer /> */}
       <Header />
       <Ubicacion />
-      <RSVP />
+      {/* <RSVP /> */}
       <Dresscode />
       <Regalos />
       <Footer />
